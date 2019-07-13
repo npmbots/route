@@ -49,6 +49,13 @@ module.exports = {
           case '/validation':
               renderHTML('./validation.php', response);
               break;
+          case '/register':
+           renderHTML('./database.php', response);
+          break;
+          case '/home':
+           renderHTML('./homepage.php', response);
+          break;
+         
           default:
               response.writeHead(404);
               response.write('Route not defined');
