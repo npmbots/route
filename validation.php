@@ -5,7 +5,7 @@ session_start();
 
 
 
-$con = mysqli_connect("localhost","root","");
+$con = mysqli_connect("https://demo.phpmyadmin.net");
 
 
 mysqli_select_db($con, "user");
@@ -14,7 +14,7 @@ mysqli_select_db($con, "user");
 $name = $_POST["nama"];
 $pass = $_POST['pass'];
 
-$s = " select * from tableform where name = '$name' && password = '$pass'";
+$s = " select * from tableform where nama = '$name' && password = '$pass'";
 
 $result = mysqli_query($con, $s);
 
