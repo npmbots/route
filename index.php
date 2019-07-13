@@ -4,7 +4,7 @@
 
 
 <head>
-<title>>> localhost Lite Server <<</title>
+<title>>> Route Lite Server <<</title>
 
 <style>
 
@@ -54,8 +54,7 @@ alert("Welcome User !");
 
 
 <body>
-<audio src="Andsmesh.mp3" autoplay></audio>
-<br><br><br><br><br><br>
+
 
 
 
@@ -82,13 +81,7 @@ alert("Welcome User !");
 </form>
 </div>
 
-<?php
-if (isset($_GET['phpinfo'])){
-       phpinfo();
-} else {
-	
-	}
-?>
+
 
 
 
@@ -118,10 +111,6 @@ if (isset($_GET['phpinfo'])){
 
 <br><br>
 
-<!-- Footer -->
-
-
-<marquee><footer>User Login / Registration Lite Server..2019</footer> </marquee>
 
 
 
