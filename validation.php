@@ -22,7 +22,7 @@ $num = mysqli_num_rows($result);
 
 if ($num == 1){
 	$_SESSION['username'] = $name;
-	header('location:homepage.php');
+	header('location:home');
 	} else {
 		header('location:index.php');
 		}
