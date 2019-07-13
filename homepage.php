@@ -29,7 +29,7 @@ if (!isset($_SESSION['username'])){
 <body>
 <div class="position">
 <br><br>
-<a href="logout.php"> 
+<a href="/logout"> 
 <button type="submit">
 LOGOUT
 </button>
