@@ -69,7 +69,7 @@ alert("Welcome User !");
 <h1 id="h1">REGISTER HERE !</h1>
 <hr>
 <br>
-<form action="database.php" method="post">
+<form action="register" method="post">
 
 <label>Name :</label>
 <input type="text" name="nama" id="nama" required="">
@@ -96,7 +96,7 @@ alert("Welcome User !");
 <hr>
 <br>
 
-<form action="validation.php" method="post">
+<form action="validation" method="post">
 
 <label>Name :</label>
 <input type="text" name="nama" required="">
