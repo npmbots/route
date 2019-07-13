@@ -29,7 +29,7 @@ function renderHTML(path, response) {
     fs.readFile(path, null, function(error, data) {
         if (error) {
             response.writeHead(404);
-            response.write('File not found!');
+            response.write('ERROR PAGE ! 404');
         } else {
             response.write(data);
         }
@@ -55,7 +55,9 @@ module.exports = {
           case '/home':
            renderHTML('./homepage.php', response);
           break;
-         
+         case '/logout':
+          renderHTML('./logout.php', response)
+          break;
           default:
               response.writeHead(404);
               response.write('Route not defined');
